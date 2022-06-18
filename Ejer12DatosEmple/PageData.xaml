@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejer12DatosEmple.PageData">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="Datos" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <Label Text="Nombres" FontSize="16" Padding="5,10,30,10"/>
+            <Label Text="{Binding nombre}" Padding="30,10,30,10"/>
+            <Label Text="Apellidos" FontSize="16" Padding="5,0,30,0"/>
+            <Label Text="{Binding apellidos}" Padding="30,10,30,10"/>
+            <Label Text="Edad:" FontSize="16" Padding="5,10,30,10"/>
+            <Label Text="{Binding edad}" Padding="30,10,30,10"/>
+            <Label Text="Email:" FontSize="16" Padding="5,10,30,10"/>
+            <Label Text="{Binding email}" Padding="30,10,30,10"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
